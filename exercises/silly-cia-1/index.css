@@ -1,0 +1,42 @@
+body {
+    margin: 10px;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.also {
+    text-transform: uppercase;
+}
+
+.pic {
+    float: left;
+    margin: 20px;
+    width: 280px;
+}
+
+ul {
+    font-size: 18px;
+    overflow: hidden;
+}
