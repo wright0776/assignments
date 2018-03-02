@@ -1,0 +1,71 @@
+
+.heading {
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+.slogan {
+    text-align: center;
+    border: 1px black solid;
+    float: left;
+    width: 150px;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.name {
+    margin: 0 20px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 500%;
+    float: left;
+}
+.weather {
+    text-align: center;
+    float: left;
+    width: 150px;
+    margin: 0 0 0 30px;
+}
+
+.date {
+    text-align: right;
+    padding: 0 30px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.article {
+    width: 300px;
+    vertical-align: text-top;
+    text-align: justify; 
+}
+
+.mainImg {
+    width: 400px;
+    border: 1px black solid;
+    margin: 5px;
+}
+
+.artTitle {
+    font-size: 40px;
+}
+.artTitle2 {
+    font-size: 35px;
+}
+
+.classifiedsHead {
+    text-align: center;
+}
+
+.ad {
+    display: block;
+    list-style-type: none;
+    padding: 10px 2px;
+    border: 1px black solid;
+    width: 170px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    margin: 2px;
+}
