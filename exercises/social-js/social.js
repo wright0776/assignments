@@ -22,12 +22,12 @@ var socialize = {
             faroriteKindsOfOil: [{
                     brand: "Pensoil",
                     weight: "10W40",
-                    placesToBuy: ["AutoZone","Lucky's"]
+                    placesToBuy: ["AutoZone", "Lucky's"]
                 },
                 {
                     brand: "Motor1",
                     weight: "20W30",
-                    placesToBuy: ["A'sAuto","Lucky's"]
+                    placesToBuy: ["A'sAuto", "Lucky's"]
                 }
             ],
             friends: ["Tom", "Sally"],
@@ -67,3 +67,28 @@ socialize.users[2].sayHello()
 socialize.users[2].addFriend("Rick")
 
 console.log(socialize.users[2].friends)
+
+socialize.users[1].addFriend("Greg")
+
+console.log(socialize.users[1]);
+
+
+socialize.users.push({
+    firstName: "Matt",
+    lastName: "Right",
+    age: 27
+})
+
+console.log(socialize.users[3]);
+
+
+socialize.users.push({
+    firstName: "Git",
+    lastName: "Hub",
+    age: 12,
+    hobbies: ["storingData", "forkingData"]
+})
+
+console.log(socialize.users[4]);
+
+console.log(socialize);
