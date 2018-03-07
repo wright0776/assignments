@@ -1,0 +1,122 @@
+* {
+    /* border: 1px black solid; */
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: white;
+    color: rgb(232, 207, 114);
+    position: fixed;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding-right: 60px;
+    padding-left: 60px;
+    z-index: 1;
+    border-bottom: 1px black solid;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+}
+
+.nav-button {
+    float: right;
+    padding: 20px;
+    bottom: 0;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+main {
+    position: relative;
+    overflow: scroll;
+    font-family: 'Quicksand', sans-serif;
+    top: 100px;
+    bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    color: rgb(194, 172, 95);
+}
+
+.post-title {
+    margin: 20px;
+    margin-left: 0;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.postImage {
+    border: 10px;
+    padding-right: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: white;
+    margin: 20px;
+    padding: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.date {
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    text-align: center;
+    border-top: 1px #ccc solid;
+}
+
+.suggestion-bar {
+    margin: 50px;
+    padding: 20px;
+    border: 5px rgb(236, 198, 193) dotted;
+}
+
+.sugTitle {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sugMain {
+    padding: 10px;
+}
+
+.sugInput {
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    border: #ccc 1px solid;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.sugButton {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    transform: translateY(-30px)
+}
+
+
+/* rgb(232, 207, 114)
+rgb(236, 198, 193) */
