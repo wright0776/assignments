@@ -1,0 +1,287 @@
+
+* {
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.flag {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border: 0;
+    display: inline-block;
+    box-shadow: 0px 0px 20px 0px dimgray ; 
+}
+
+.franceBlue {
+    background-color: blue;
+    width: 120px;
+    height: 200px;
+    display: inline-block;
+}
+
+.franceWhite {
+    background-color: white;
+    width: 120px;
+    height: 200px;
+    display: inline-block;
+}
+
+.franceRed {
+    background-color: red;
+    width: 120px;
+    height: 200px;
+    display: inline-block;
+}
+
+.germanyBlack {
+    background-color: black;
+    width: 360px;
+    height: 80px;
+}
+
+.germanyRed {
+    background-color: red;
+    width: 360px;
+    height: 80px;
+}
+
+.germanyYellow {
+    background-color: gold;
+    width: 360px;
+    height: 80px;
+}
+
+.madWhite {
+    background-color: white;
+    width: 120px;
+    height: 240px;
+    display: inline-block;
+    
+}
+
+.madHorizontal {
+    display: inline-block;
+}
+
+.madRed {
+    background-color: red;
+    width: 250px;
+    height: 120px;
+}
+
+.madGreen {
+    background-color: green;
+    width: 250px;
+    height: 120px;
+}
+
+.swissRed {
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    z-index: -1;
+}
+
+.swissWhiteVert {
+    background-color: white;
+    width: 70px;
+    height: 220px;
+    transform: translate(135px,65px);
+}
+
+.swissWhiteHoriz {
+    background-color: white;
+    width: 220px;
+    height: 70px;
+    transform: translate(60px,-80px);
+}
+
+.swedeBlue {
+    background-color: blue;
+    width: 400px;
+    height: 250px;
+    z-index: -1;
+}
+
+.swedeYellowVert {
+    background-color: gold;
+    width: 50px;
+    height: 250px;
+    transform: translate(120px,0);
+}
+
+.swedeYellowHoriz {
+    background-color: gold;
+    width: 400px;
+    height: 50px;
+    transform: translate(0,-150px);
+}
+
+.gambiaRed {
+    background-color: red;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.gambiaBlue {
+    background-color: navy;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.gambiaGreen {
+    background-color: darkgreen;
+    width: 400px;
+    height: 80px;
+}
+
+.tongaRed {
+    background-color: red;
+    width: 450px;
+    height: 250px;
+}
+
+.tongaWhite {
+    background-color: white;
+    width: 180px;
+    height: 125px;
+}
+
+.tongaRedVert {
+    background-color: red;
+    width: 33px;
+    height: 90px;
+    transform: translate(73px,17px);
+}
+
+.tongaRedHoriz {
+    background-color: red;
+    width: 90px;
+    height: 33px;
+    transform: translate(45px,-45px);
+}
+
+.japanWhite {
+    background-color: white;
+    width: 400px;
+    height: 280px;
+}
+
+.japanRed {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: translate(120px,65px)
+}
+
+.greeceBlue {
+    background-color: rgb(0, 97, 170);
+    width: 433px;
+    height: 297px;
+}
+
+.greeceCrossVert {
+    background-color: white;
+    width: 33px;
+    height: 165px;
+    transform: translate(66px,0)
+}
+
+.greeceCrossHoriz {
+    background-color: white;
+    width: 165px;
+    height: 33px;
+    transform: translate(0,-99px)
+}
+
+.greeceShort1 {
+    background-color: white;
+    width: 268px;
+    height: 33px;
+    transform: translate(165px,-165px);
+}
+
+.greeceShort2 {
+    background-color: white;
+    width: 268px;
+    height: 33px;
+    transform: translate(165px,-132px);
+}
+
+.greeceLong1 {
+    background-color: white;
+    width: 433px;
+    height: 33px;
+    transform: translate(0,-99px);
+    
+}
+
+.greeceLong2 {
+    background-color: white;
+    width: 433px;
+    height: 33px;
+    transform: translate(0,-66px);
+}
+
+.nigerRed {
+    background-color: red;
+    width: 400px;
+    height: 110px;
+}
+
+.nigerWhite {
+    background-color: white;
+    width: 400px;
+    height: 110px;
+}
+
+.nigerGreen {
+    background-color: rgb(0, 174, 64);
+    width: 400px;
+    height: 110px;
+}
+
+.nigerCircle {
+    background-color: red;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    transform: translate(150px,7px)
+}
+
+.maldiveRed {
+    background-color: red;
+    width: 420px;
+    height: 275px;
+}
+
+.maldiveGreen {
+    background-color: green;
+    width: 280px;
+    height: 150px;
+    transform: translate(70px,63px);
+}
+
+.whiteMoon {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(100px,25px);
+}
+
+.greenMoon {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(20px,0);
+}
