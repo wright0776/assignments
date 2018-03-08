@@ -12,6 +12,7 @@
 
 .row2 {
     margin-bottom: 10px;
+    display: flex;
 }
 
 .row2 div {
