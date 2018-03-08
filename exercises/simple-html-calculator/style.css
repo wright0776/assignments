@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-size: 0;
+    margin: 10px;
+}
+
+h2, p {
+    font-size: 25px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.add, .subtract, .multiply {
+    display: flex;
+    flex-direction: row;
+}
+
+.addOut, .subOut, .multiplyOut {
+    background-color: lightblue;
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 3px 3px 3px 10px;
+}
+
+.inputBox {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.reset {
+    background-color: white;
+}
