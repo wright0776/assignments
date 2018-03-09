@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">The Travel Form</h1>
+    </div>
+    <form class="main" name="travel" id="travel">
+        <input type="text" placeholder="First Name" id="first" name="first">
+        <input type="text" placeholder="Last Name" id="last" name="last">
+        <input class="age" type="number" min="0" id="age" placeholder="Age" name="age">
+        <label for="gender">Gender:</label>
+        <label class="sideLabel" for="male">
+            <input type="radio" value="male" id="male" name="gender"> Male
+        </label>
+        <label class="sideLabel" for="female">
+            <input type="radio" value="female" id="female" name="gender"> Female
+        </label>
+        <label class="sideLabel" for="other">
+            <input type="radio" value="other" id="other" name="gender"> Other
+        </label>
+        <select name="destination" id="destination">
+            <option value="nowhere">- Destination -</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Peru">Peru</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+        </select>
+        <label for="dietRestrictions">Diet Restrictions:</label>
+        <label class="sideLabel" for="vegetarian">
+            <input type="checkbox" value="vegetarian" id="vegetarian" name="vegetarian"> Vegetarian
+        </label>
+        <label class="sideLabel" for="vegan">
+            <input type="checkbox" value="vegan" id="vegan" name="vegan"> Vegan
+        </label>
+        <label class="sideLabel" for="glutenFree">
+            <input type="checkbox" value="glutenFree" id="glutenFree" name="glutenFree"> Gluten Free
+        </label>
+
+    </form>
+    <div class="review">
+        <h3>Review:</h3>
+    </div>
+    <div class="output">
+        <h3 id=output></h3>
+    </div>
+    <div class="button">
+        <button class="submit" id="submit" form="travel">Submit</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

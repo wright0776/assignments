@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-size: 0;
+    margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.header {
+    background-image: url("https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec23000300013938b7094a2e14398585&auto=format&fit=crop&w=1650&q=80");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+.title {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+label, input, select {
+    font-size: 18px;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+label {
+    border: none;
+    font-size: 20px;
+}
+
+.sideLabel {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.age {
+    width: 15%;
+}
+
+.output {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.review {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px gainsboro solid;
+    border-bottom: 2px solid gainsboro;
+    margin-bottom: 40px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.submit {
+    font-size: 20px;
+    width: 200px;
+    margin: 20px auto;
+    margin-top: 40px;
+    text-align: center;
+}
