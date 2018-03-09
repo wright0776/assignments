@@ -1,0 +1,153 @@
+* {
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: left;
+}
+
+button {
+    font-size: 18px;
+}
+
+.marioRed {
+    background-color: red;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.marioWhite {
+    background-color: white;
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    color: red;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100px;
+    height: 22px;
+    margin: 3px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+img {
+    height: 200px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.no {
+    display: flex;
+    align-items: flex-end;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.coin {
+    height: 20px;
+    margin-left: 5px;
+}
+
+.totals {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-top: 2px solid black;
+    padding: 20px;
+}
+
+.pestsTotal {
+    background-color: rgb(228, 235, 255);
+    min-width: 300px;
+    min-height: 200px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+.total .pests {
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.pests {
+    margin-right: 100px;
+}
+
+.innerTotal {
+    background-color: rgb(228, 235, 255);
+    min-width: 200px;
+    min-height: 100px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.contact {
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.email {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.website {
+    margin-bottom: 8px;
+}

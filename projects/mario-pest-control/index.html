@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Montserrat|Rammetto+One" rel="stylesheet">
+    <title>Mario Pest Control</title>
+</head>
+
+<body>
+    <div class="marioRed">
+        <div class="marioWhite">
+            <h1 class="logo">Mario Pest Control</h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="profile">
+            <img src="https://vignette.wikia.nocookie.net/fantendo/images/4/4e/Goomba.png/revision/latest?cb=20160623150623" alt="goomba">
+            <h2>Goombas:</h2>
+            <h3 class="price">
+                5 coins
+                <img class="coin" id="coin" src="https://daks2k3a4ib2z.cloudfront.net/575d645da4bf5b9f21dd0064/5857110c8c626b3005f64356_my-coin.png"
+                    alt="coin">
+            </h3>
+            <div class="no">
+                <input type="number" min="0" id="goombas" placeholder="No.">
+            </div>
+        </div>
+        <div class="profile">
+            <img src="https://vignette.wikia.nocookie.net/mario/images/8/8c/Bob-omb%2C_New_Super_Mario_Bros._U.png/revision/latest?cb=20121119023919"
+                alt="bob-omb">
+            <h2>Bob-ombs:</h2>
+            <h3 class="price">
+                7 coins
+                <img class="coin" src="https://daks2k3a4ib2z.cloudfront.net/575d645da4bf5b9f21dd0064/5857110c8c626b3005f64356_my-coin.png"
+                    alt="coin">
+            </h3>
+            <div class="no">
+                <input type="number" min="0" id="bombs" placeholder="No.">
+            </div>
+        </div>
+        <div class="profile">
+            <img src="https://www.mariowiki.com/images/6/63/CheepCheepNSMBU.png" alt="cheep-cheeps">
+            <h2>Cheep-Cheeps:</h2>
+            <h3 class="price">
+                11 coins
+                <img class="coin" src="https://daks2k3a4ib2z.cloudfront.net/575d645da4bf5b9f21dd0064/5857110c8c626b3005f64356_my-coin.png"
+                    alt="coin">
+            </h3>
+            <div class="no">
+                <input type="number" min="0" id="cheeps" placeholder="No.">
+            </div>
+        </div>
+    </div>
+    <div class="totals">
+        <div class="pests">
+            <h3>Subtotal:</h3>
+            <div class="pestsTotal">
+                <h4 id="subT"></h4>
+            </div>
+        </div>
+        <div class="total">
+            <h3>Total:</h3>
+            <div class="innerTotal">
+                <h3 id="total"></h3>
+            </div>
+            <button class="reset" id="reset">reset</button>
+        </div>
+    </div>
+    <div class="contact">
+        <h3 class="email">mario@mario.com</h3>
+        <h3 class="website">mario.com</h3>
+        <h3>53 Mario Way</h3>
+        <h3>Mario City, Nintendo Land 42484</h3>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
