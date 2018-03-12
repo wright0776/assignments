@@ -11,6 +11,18 @@ h1 {
 h2 {
     font-family: 'Spinnaker', sans-serif;
 }
+h3 {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 16px;
+}
+p {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .topMargin {
     width: 100%;
@@ -77,73 +89,21 @@ a:hover {
     height: 30px;
 }
 
-.titleBox {
-    width: 100%;
-    height: 50vh;
-    color: #ffffff;
-}
-
 .main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 100%;
+    height: 650px;
     background: linear-gradient(to right, rgb(103, 166, 173), rgb(165, 236, 241), rgb(161, 231, 236), rgb(165, 236, 241), rgb(118, 185, 192));
-    width: 100%;
-    height: 100vh;
-}
-
-.mainAbout {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background: linear-gradient(to right, rgb(103, 166, 173), rgb(165, 236, 241), rgb(161, 231, 236), rgb(165, 236, 241), rgb(118, 185, 192));
-    width: 100%;
-    height: 100vh;
-}
-
-.titleBoxAbout {
-    width: 100%;
-    height: 50vh;
-    color: #ffffff;
-}
-
-.title {
-    font-size: 30px;
-    width: 200px;
-    height: 150px;
-    margin-top: 80px;
-    line-height: 50px;
-    font-weight: 100;
-    letter-spacing: 5px;
-    padding-left: 10px;
-    text-shadow: 0px 0px 10px #919191;
-}
-
-.subtitle {
-    font-size: 12px;
-    width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    line-height: 30px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    padding-left: 10px;
-    text-shadow: 0px 0px 10px #919191;
-}
-
-.about {
-    background: rgb(231,229,87);
-    height: 50vh;
-    width: 100%;
 }
 
 .scheduleBox {
     width: 100%;
-    height: 50px;
-    margin-top: 20px;
-    padding-left: 10px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .schedule {
@@ -156,6 +116,40 @@ a:hover {
     text-align: center;
     box-shadow: 0 0 10px #919191;
     text-shadow: 0px 0px 10px #919191;
+}
+
+.about {
+    background: rgb(231,229,87);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(97,97,97);
+    padding: 10vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.olive {
+    height: 10vh;
+    border-radius: 50%;
+}
+
+.vertLine {
+    width: 2px;
+    height: 60px;
+    background-color: rgb(97,97,97);
+}
+
+.paragraph {
+    color: rgb(97,97,97);
+    text-align: center;
+}
+.contactLink {
+    padding: 5px;
+    border: 1px solid rgb(97,97,97);
 }
 
 @media (min-width: 768px) {
@@ -232,36 +226,13 @@ a:hover {
         justify-content: flex-start;
         padding-left: 25%;
         padding-right: 25%;
-    }
-    .title {
-        font-size: 40px;
-        width: 200px;
-        height: 150px;
-        margin-top: 200px;
-        line-height: 60px;
-        font-weight: 100;
-        letter-spacing: 5px;
-        padding-left: 50px;
-        text-shadow: 0px 0px 10px #919191;
-    }
-    .subtitle {
-        font-size: 20px;
-        width: 100%;
-        height: 50px;
-        margin-top: 50px;
-        line-height: 30px;
-        font-weight: 100;
-        letter-spacing: 3px;
-        padding-left: 50px;
-        text-shadow: 0px 0px 10px #919191;
+        height: 100vh;
     }
     .scheduleBox {
         width: 100%;
         height: 50px;
         margin-top: 20px;
-        padding-left: 50px;
     }
-    .scheduleLink {}
     .schedule {
         width: 200px;
         font-size: 14px;
@@ -272,5 +243,8 @@ a:hover {
         text-align: center;
         box-shadow: 0 0 10px #919191;
         text-shadow: 0px 0px 10px #919191;
+    }
+    .about {
+        margin-top: 50px;
     }
 }

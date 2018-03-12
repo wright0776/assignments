@@ -9,8 +9,6 @@ var goombasPrice = 5
 var bombsPrice = 7
 var cheepsPrice = 11
 
-var notAll = function(){}
-
 goombas.addEventListener("input", function(e){
     total.innerHTML = (
         (goombas.valueAsNumber * goombasPrice || 0) + 
