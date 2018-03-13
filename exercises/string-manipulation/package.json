@@ -1,0 +1,15 @@
+{
+  "name": "string-manipulation",
+  "version": "1.0.0",
+  "description": "In this exercise I used readline-sync to create a javascript script where a pirate asks the user several questions and then manipulates the data received based on the user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
