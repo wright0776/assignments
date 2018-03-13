@@ -1,0 +1,75 @@
+* {
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: supermario;
+    src: url(supermario256.ttf);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: supermario, cursive;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: supermario, cursive;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    color: red;
+    background-color: gold;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.luigiRed {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+
+.profile {
+    width: 300px;
+    text-align: center;
+}
+
+.toad {
+    height: 50px;
+}
+
+.footer {
+    background-color: gold;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
