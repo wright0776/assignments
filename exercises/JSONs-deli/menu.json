@@ -1,0 +1,48 @@
+{
+    "appetizers": [{
+        "name":"seasoned fries",
+        "ingredients":["potatoes","seasoning","oil"],
+        "description":"cajun seasoned, fried to perfection"
+    }, {
+        "name":"chia seed pudding",
+        "ingredients":["chia seeds","almond milk","vanilla","maple syrup"],
+        "description":"high in protien and omegas, perfect topped with blueberries"
+    }],
+    "cold-sandwiches": [{
+        "name":"seitan slammer",
+        "ingredients":["seitan, spices, greens, vmayo, cashew gouda"],
+        "description":"guaranteed to mystify your tastebuds"
+    }, {
+        "name":"chickpea smash",
+        "ingredients":["chickpeas","greens","oil","olives"],
+        "description":"like egg salad, but with chickpeas!"
+    }],
+    "hot-sandsiches": [{
+        "name":"hot one",
+        "ingredients":["hot sauce","hot tomales","hot potatoes"],
+        "description":"really really hot!"
+    }, {
+        "name":"hot pickled panini",
+        "ingredients":["pickles","pickled onions","pickled carrots","pickled bike tire"],
+        "description":"we can pickle that!"
+    }],
+    "desserts": [{
+        "name":"sugar",
+        "ingredients":["sugar","cotton candy","candy corn","maple syrup"],
+        "description":"got a sweet tooth?"
+    }, {
+        "name":"kale cookies",
+        "ingredients":["kale","almond flour","almond milk","almonds"],
+        "description":"super healthy"
+    }],
+    "drinks": [{
+        "name":"blueberry fizzbanger",
+        "ingredients":["blueberries","carbonated water","TNT","lemon juice","sugar"],
+        "description":"it'll knock your socks off, and your face"
+    }, {
+        "name":"artesan water",
+        "ingredients":["filtered water","REDACTED","REDACTED","REDACTED"],
+        "description":"made with our special top secret recipe, we swear its not just water"
+    }]
+
+}
