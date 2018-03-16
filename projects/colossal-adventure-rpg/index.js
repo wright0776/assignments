@@ -9,7 +9,7 @@ var data = {
     escaped: undefined,
     enemyTypes: ["Death Frog", "Hater", "Factory Farm", "Donald Trump"],
     attackTypes: ["Roundhouse Kick", "Karate Chop", "Sucker Punch", "Say mean words to"],
-    itemTypes: ["Jar of Holy Water", "Pile of Shit", "used Iphone X", "Greasy Toupe"]
+    itemTypes: ["Jar of Holy Water", "Lucky Cricket", "Brick Phone", "Greasy Toupe"]
 }
 
 var player = {
