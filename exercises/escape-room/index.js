@@ -10,7 +10,7 @@ var data = {
 }
 
 data.name = readline.question("\nReginald: Welcome to the escape room... what's your name?\n\n Prisoner: ");
-console.log("\nReginald: Hello, " + data.name + ". My name is Reginal, I'm here to help you get out, but I can only tell you so much.\n\n\tYou have three choices of what to do next: ");
+console.log("\nReginald: Hello, " + data.name + ". My name is Reginald, I'm here to help you get out, but I can only tell you so much.\n\n\tYou have three choices of what to do next: ");
 
 while (data.choice !== "Find the key") {
     if (data.tries === 0) {
