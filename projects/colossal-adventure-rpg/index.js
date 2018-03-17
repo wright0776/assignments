@@ -102,6 +102,8 @@ var walk = function () {
 var enemyAppeared = function () {
     var enemy = new GenerateEnemy()
     console.log("\n\nYou begin walking ... A " + enemy.type + " appears!");
+    data.fightOrFlee = undefined;
+    data.action = undefined;
     data.fightOrFlee = rs.keyIn("\n\tEnter 'f' to fight the " + enemy.type + ", enter 'r' to run away. \n\n", {
         limit: "fr"
     })
