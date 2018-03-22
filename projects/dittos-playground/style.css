@@ -1,0 +1,690 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* border: 1px black solid; */
+}
+
+@font-face {
+    font-family: verdemoderna;
+    src: url(verdemoderna.woff);
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas: "hdr" "abt" "par" "req" "cre""ftr" "art" "men";
+}
+
+header {
+    grid-area: hdr;
+    /* height: 250px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+    background-size: auto, auto, auto, cover;
+    border-top: solid 10px rgba(19, 67, 71, 0.9);
+}
+.header2 {
+    height: 0;
+    width: 0;
+    margin: 0;
+}
+.enso {
+    width: 50px;
+    padding-top: 20px;
+    opacity: 0.6;
+}
+
+h1 {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: white;
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.subtitle {
+    padding-bottom: 25px;
+}
+
+abbr {
+    text-decoration: underline dotted;
+    font-size: 0.9em;
+    letter-spacing: 0.01em;
+}
+
+nav {
+    /* grid-area: nav; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+}
+
+.back {
+    width: 70px;
+    height: 70px;
+    font-family: 'verdemoderna';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+.backLink {
+    cursor: default;
+}
+
+.allDesigns {
+    width: 100%;
+    height: 100%;
+    line-height: 70px;
+    text-align: center;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+.viewAll {
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    display: block;
+}
+
+.forward:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    transition: 400ms;
+}
+
+.forward {
+    width: 70px;
+    height: 70px;
+    font-family: 'verdemoderna';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+.viewAll:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    transition: 400ms;
+}
+
+.indicator {
+    width: 70px;
+    font-size: 44px;
+    font-family: 'verdemoderna';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    /* transform: translateY(-26px); */
+    line-height: 70px;
+}
+
+.about {
+    grid-area: abt;
+}
+
+.about .intro {
+    font-size: 0;
+}
+
+h3 {
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 0.6em;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+p {
+    color: #325050;
+    font-size: 0.85em;
+    margin-bottom: 0.8em;
+    line-height: 2;
+}
+
+p a {
+    color: #0d8ba1;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+section div {
+    /* grid-area: abt; */
+    width: 80%;
+    margin: auto;
+    padding-bottom: 1.5em;
+}
+
+section div {
+    padding-top: 2em;
+}
+
+.participation {
+    grid-area: par;
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138, 188, 159, 0.5);
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+
+.requirements {
+    grid-area: req;
+}
+
+.credits {
+    grid-area: cre;
+    /* height: 250px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #3e5d67; */
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/koi.jpg);
+    background-size: auto, auto, auto, cover;
+    padding: 1.4em 6%;
+}
+
+.credits p {
+    font-size: 1.4em;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    line-height: 2;
+}
+
+.credits a {
+    font-size: 1em;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    grid-area: ftr;
+    background: #134347;
+    padding: 1em 0;
+    font-family: 'verdemoderna';
+    /* font-size: 2.2em; */
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 0.25em;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.3);
+    transition: color 250ms;
+}
+
+footer a.aa::before {
+    content: "5";
+}
+
+footer a.aa:hover::before {
+    content: "%";
+}
+
+footer a.bb::before {
+    content: "3";
+}
+
+footer a.bb:hover::before {
+    content: "#";
+}
+
+footer a.cc::before {
+    content: "c";
+}
+
+footer a.cc:hover::before {
+    content: "C";
+}
+
+footer a.dd::before {
+    content: "a";
+}
+
+footer a.dd:hover::before {
+    content: "A";
+}
+
+footer a.ee::before {
+    content: "g";
+}
+
+footer a.ee:hover::before {
+    content: "G";
+}
+
+.artists {
+    grid-area: art;
+    display: grid;
+    grid-template-areas: "mid gar" "ste apo" "scr fou" "aro ver";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+}
+
+.artists div {
+    padding: 1em 10%;
+    border-top: 1px solid rgb(219, 227, 221);
+    background-color: rgb(238, 244, 240);
+    font-size: 0.9em;
+    color: #c0cac3;
+    font-style: italic;
+}
+
+.artists a:hover {
+    color: #0d8ba1;
+    transition: 600ms;
+}
+
+.t {
+    display: block;
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.1em;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 100%;
+    text-decoration: none;
+    color: #607476;
+}
+
+.s {
+    font-size: 0.85em;
+    color: #616857;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.mid {
+    grid-area: mid;
+}
+
+.gar {
+    grid-area: gar;
+}
+
+.ste {
+    grid-area: ste;
+}
+
+.apo {
+    grid-area: apo;
+}
+
+.scr {
+    grid-area: scr;
+}
+
+.fou {
+    grid-area: fou;
+}
+
+.aro {
+    grid-area: aro;
+}
+
+.ver {
+    grid-area: ver;
+}
+
+.menu {
+    grid-area: men;
+    display: grid;
+    grid-template-areas: "view css" "faq subm" "tran tran";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    background-color: rgba(138, 188, 159, 0.5);
+    background-image: url(http://www.csszengarden.com/214/bamboo.png)
+}
+
+.menu div {
+    padding: 1em 10%;
+    font-size: 1em;
+    border-top: 1px solid rgb(155, 185, 174);
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #607476;
+}
+
+.menu a:hover {
+    color: #0d8ba1;
+    transition: 600ms;
+}
+
+.view {
+    grid-area: view;
+}
+
+.css {
+    grid-area: css;
+}
+
+.faq {
+    grid-area: faq;
+}
+
+.sub {
+    grid-area: subm;
+}
+
+.tran {
+    grid-area: tran;
+}
+
+#tran {
+    padding-left: 5%;
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 0.9em;
+        -webkit-font-smoothing: antialiased;
+    }
+    .credits p {
+        font-size: 1em;
+    }
+    footer {
+        display: inline-block;
+        text-align: center;
+    }
+    .artists,
+    .menu {
+        display: block;
+    }
+}
+
+@media (min-width: 500px) {
+    h1::before {
+        position: relative;
+        top: 20px;
+        content: "";
+        color: white;
+        margin: -20px 20px 0 0;
+        background-size: 100%;
+        opacity: 0.6;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-image: url(http://www.csszengarden.com/214/enso.svg);
+    }
+    h2::before {
+        content: " ";
+        padding: 1.5em;
+    }
+    .enso {
+        height: 0;
+        width: 0;
+        padding-top: 50px;
+        opacity: 0.6;
+    }
+    header {
+        height: 230px;
+    }
+    footer a {
+        width: 52px;
+        height: 52px;
+        font-size: 1.3em;
+        margin: 0 0.5em;
+    }
+    .artists div,
+    .menu div {
+        padding: 1.5em 10%;
+    }
+}
+
+@media (min-width: 600px) {
+    header {
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    h1::before {
+        height: 80px;
+        width: 80px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .enso {
+        padding-top: 10px;
+    }
+    .about .intro {
+        font-size: 0.85em;
+    }
+    .intro a {
+        position: relative;
+        color: #809b7e;
+        padding: 5px 10px 5px 12px;
+        margin: -1px -10px -1px -6px;
+        font-family: 'Julius Sans One', sans-serif;
+        line-height: 2;
+        border-radius: 2px;
+        z-index: 99;
+    }
+    .intro a:hover {
+        color: #fff;
+        background: #3d8a9f;
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+    }
+    .intro a::before {
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        left: -4px;
+        padding: 2px;
+        color: #a9b995;
+        background: #d9e1cd;
+        border-radius: 2px;
+        content: "D";
+        font-size: 16px;
+        text-indent: 0;
+        font-family: 'verdemoderna';
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        transition: all 0.25s ease-out;
+    }
+    .intro a:hover::before {
+        color: #fff;
+        background: #357d93;
+    }
+}
+
+@media (min-width: 1132px) {
+    .container {
+        height: auto;
+        display: grid;
+        grid-template-areas: "hdr hdr" "abt art" "par men" "req requ" "cre cre" "ftr ftr";
+        grid-template-columns: 66% 34%;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+    header {
+        height: 310px;
+        display: grid;
+        grid-template-areas: "main nav";
+        grid-template-columns: 66% 34%;
+        grid-template-rows: 100%;
+        box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.3);
+        border-top: solid 12px rgba(19, 67, 71, 0.8);
+
+    }
+    .header2 {
+        /* grid-area: nav; */
+        position: absolute;
+        display: flex;
+        flex-grow: auto;
+        right: 0;
+        bottom: 0;
+        align-self: stretch;
+        height: 100%;
+        width: 34%;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0.2;
+        grid-area: hdr, art, men, req2;
+        /* grid-column: 2 / span 1;
+        grid-row: 1 / span 4; */
+    }
+    /* .req2 {
+        grid-area: requ;
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100px;
+        width: 100px;
+    } */
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+        line-height: 2.3;
+    }
+    .enso, .title, .subtitle {
+        grid-area: main;
+    }
+    .nav {
+        grid-area: nav;
+        padding-right: 10%;
+    }
+    h1::before {
+        height: 125px;
+        width: 125px;
+        top: 50px;
+        margin-bottom: -10px;
+        opacity: 1;
+        margin-right: 40px;
+    }
+    .title {
+        margin-top: -100px;
+    }
+    .subtitle {
+        padding-top: 80px;
+        margin-left: -65px;
+    }
+    .back {
+        background-color: transparent;
+    }
+    .allDesigns {
+        margin-right: 1px;
+    }
+    .artists,
+    .menu {
+        display: block;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .artists {
+        padding-top: 80px;
+        background-color: rgb(238, 244, 240);
+    }
+    .menu {
+        padding-top: 100px;
+        background-attachment: scroll, scroll, fixed;
+        background-color: rgba(138, 188, 159, 0.5);
+        background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
+        background-repeat: repeat, repeat, no-repeat;
+        background-size: auto, auto, cover;
+    }
+    .artists div {
+        height: 10%;
+        font-size: 1em;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    .menu div {
+        font-size: 1em;
+    }
+    .credits {
+        padding-top: 3em;
+        padding-bottom: 3em;
+        box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.3);
+        font-size: 1.5em;
+    }
+    footer {
+        font-size: 3.5em;
+        padding: 1em 0;
+    }
+    footer a {
+        width: 76px;
+        height: 76px;
+    }
+    body {
+        background: #ffffff;
+        background: linear-gradient(to right,  #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
+        font-size: 100%;
+    }
+    #tran {
+        padding-left: 0;
+    }
+    .menu div {
+        padding-left: 0;
+    }
+}
