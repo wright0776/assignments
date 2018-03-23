@@ -1,0 +1,17 @@
+.todo-list > li {
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+.todo-list > li > button {
+    background-color: peru;
+    color: olivedrab;
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.todo-list > li > button:hover {
+    
+}
