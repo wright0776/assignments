@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <h2>(Sorry Kittens!)</h2>
+    <ul id="the-list">
+        <button id="delete" class="delete">Delete Selected</button>
+    </ul>
+    <form id="add-to-do">
+        <input type="text" name="title" id="title" placeholder="title">
+        <input type="text" name="description" id="description" placeholder="description">
+        <input type="number" name="price" id="price" placeholder="price">
+        <input type="text" name="image" id="image" placeholder="image url">
+        <button class="add">add</button>
+    </form>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
