@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    text-align: center;
+    padding: 10px;
+}
+
+.mainInput {
+    margin: auto;
+    width: 240px;
+    padding: 2px;
+    font-size: 16px;
+    border: rgb(129, 182, 156) 2px solid;
+    border-radius: 2px;
+}
+
+.mainButton {
+    margin-left: 10px;
+    background-color: rgb(224, 255, 229);
+    height: 26px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.mainList {
+    padding-top: 25px;
+    width: 20%;
+    margin: auto;
+    text-align: left;
+}
+
+.xButton {
+    margin-right: 10px;
+    background-color: rgb(215, 214, 255);
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.xButton:hover {
+    cursor: pointer;
+}
