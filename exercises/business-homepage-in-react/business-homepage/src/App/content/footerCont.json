@@ -1,0 +1,10 @@
+ {
+    "footerClass": "footer",
+    "linksClass": "footerLinks",
+    "links": ["HOME","ABOUT","PRODUCTS","CONTACT"],
+    "socsClass": "socs",
+    "copyright": "\u00A9 2018 Matthew Wright",
+    "credits": "Website by",
+    "me": "Matthew Wright"
+}
+

@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Noto+Sans");
+
+body {
+    /* height: 200vh; */
+    margin: 0;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family:  'Cinzel', serif;
+}
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.li:hover {
+    cursor: pointer;
+}
+
+.nav {
+    grid-area: nav;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1508788397430-55907b348ba8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db0786d4e2ad0dc64e08df49423e6e18&auto=format&fit=crop&w=934&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "title title title title" "subt subt subt subt" "navLi navLi navLi navLi";
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3);
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+.title {
+    grid-area: title;
+    color: white;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px black;
+    border-bottom: 1px solid black;
+}
+
+.subtitle {
+    grid-area: subt;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+    margin: 5px 0 0px 0;
+    letter-spacing: 2px;
+}
+
+.navUl {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    padding-left: 0;
+}
+
+.navUl > li {
+    font-size: 0.9em;
+    border: 1px solid rgb(206, 206, 206);
+    padding: 5px;
+    text-shadow: 0 0 10px black;
+}
+
+.navUl > li:hover {
+    cursor: pointer;
+    color: rgb(240, 240, 240);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.navUl {
+    grid-area: navLi;
+}
+
+@media (min-width: 500px) {
+    .nav {
+        background-position: 0 -400px;
+    }
+    .title {
+        letter-spacing: 5px;
+        width: 80%;
+        margin: 0.8em auto 0 auto;
+    }
+    .subtitle {
+        letter-spacing: 4px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .nav {
+        background-position: 0 -600px;
+    }
+    .title {
+        letter-spacing: 10px;
+        width: 60%;
+        margin: 0.8em auto 0 auto;
+    }
+    .subtitle {
+        letter-spacing: 8px;
+    }
+}
+
+.info {
+    grid-area: info;
+    background-color: black;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.info > h3 {
+    font-size: 0.9em;
+    margin: 0;
+    padding: 1em 1em 0 1em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.info > p {
+    margin: 0;
+    padding: 1em 1em 2em 1em;
+    text-align: center;
+    font-size: 0.8em;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.8;
+}
+
+.products {
+    background: rgb(56, 56, 56);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 47%));
+    /* grid-template-rows: repeat(auto-fit, minmax(100vw, 1fr)); */
+    padding: 5% 5% 0 5%;
+    height: 100%;
+    padding-bottom: 10px;
+    grid-gap: 6%;
+}
+
+@media (min-width: 700px) {
+    .products {
+        grid-template-columns: repeat(auto-fit, minmax(20px, 20.5%))
+    }
+}
+
+.prod {
+    display: block;
+    height: 40%;
+    color: burlywood;
+    text-align: center;
+    /* padding: 5% 5% 0 5%; */
+    margin-bottom: 10%;
+}
+
+.prod div {
+    height: 50vh;
+}
+
+.prod img {
+    width: 100%;
+    border: 2px solid silver;
+    box-shadow: 0 0 100px black;
+}
+
+.prod a {
+    text-decoration: none;
+    color: white;
+    font-size: .7em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.prod p {
+    margin: auto;
+    text-align: center;
+    margin-top: .5em;
+    width: 60%;
+    border-top: 1px solid black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footerLinks {
+    margin: 0;
+}
+
+.footerLinks li {
+    display: inline-block;
+    font-size: .6em;
+    margin: 2em 1em 1em 1em;
+    color: silver;
+}
+
+.socs div {
+    height: 26px;
+}
+
+.socs div a {
+    position: relative;
+    display: inline-block;
+    height: 26px;
+    overflow: hidden;
+    margin: 0 5px 10px 10px;
+}
+
+.socs div a img:hover {
+    transform: translateY(-27px)
+}
+
+.footer > div {
+    font-size: .6em;
+    color: burlywood;
+    margin: 30px 0 0 50px;
+}
+
+.footer a {
+    font-size: 1em;
+    color: burlywood;
+}
+
+.footer div > p > a {
+    color: silver;
+}

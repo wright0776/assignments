@@ -1,0 +1,12 @@
+{
+    "navClass": "nav",
+    "title": "PARADISE TIMBER",
+    "titleClass": "title",
+    "subtitle": "PREMIUM TIMBER",
+    "subtitleClass": "subtitle",
+    "ulClass": "navUl",
+    "home": "HOME",
+    "about": "ABOUT",
+    "products": "PRODUCTS",
+    "contact": "CONTACT"
+}

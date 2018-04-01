@@ -1,0 +1,35 @@
+{
+    "products": [{
+            "productClass": "prod teak",
+            "product": "Teak",
+            "productLink": "http://www.wood-database.com/teak/",
+            "imageUrl": "https://pimg.tradeindia.com/01699917/b/1/Raw-Teak-Wood-Logs.jpg",
+            "imageAlt": "teak wood",
+            "moreInfo": "More Info"
+        },
+        {
+            "productClass": "prod poplar",
+            "product": "Poplar",
+            "productLink": "http://www.wood-database.com/poplar/",
+            "imageUrl": "https://www.woodworkerssource.com/mm5/graphics/woods_stacks_scans/closer/Poplar_3.jpg",
+            "imageAlt": "poplar wood",
+            "moreInfo": "More Info"
+        },
+        {
+            "productClass": "prod walnut",
+            "product": "Walnut",
+            "productLink": "http://www.wood-database.com/claro-walnut/",
+            "imageUrl": "https://cdn.webvanta.com/000000/49/22/home_slides/uploads/slider_image/1374502112-25ce930a497d9efce/slide2.jpg",
+            "imageAlt": "walnut wood",
+            "moreInfo": "More Info"
+        },
+        {
+            "productClass": "prod ebony",
+            "product": "Ebony",
+            "productLink": "http://www.wood-database.com/gaboon-ebony/",
+            "imageUrl": "https://sc01.alicdn.com/kf/UT8hJ_RXxtaXXagOFbXy/Ebony-wood-premium-quality-worldwide-export.jpg",
+            "imageAlt": "ebony wood",
+            "moreInfo": "More Info"
+        }
+    ]
+}
