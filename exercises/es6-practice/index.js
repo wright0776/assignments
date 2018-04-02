@@ -30,12 +30,12 @@ for (let i = 0; i < pets.length; i++){
 
 // Be aware that if JavaScript sees a { directly after the => it will think it's starting a function, and not starting an object, so the : will be an unexpected symbol.
 
-// const vegetables = carrots.map(carrot => ({type: "carrot", name: carrot}))
+const vegetables = carrots.map(carrot => ({type: "carrot", name: carrot}))
 
 
 // re-write this .filter() using a fat arrow function:
 
-// friends = people.filter(person => !!person.friendly);
+friends = people.filter(person => !person.friendly);
 
 
 // re-write the following functions to be fat arrow functions:
@@ -54,15 +54,14 @@ const stmnt = (first = "Jane",last = "Doe",age = 100) => {
 
 // console.log(stmnt())
 
-// firstName should default to "Jane" 
-// lastName should default to "Doe" 
-// age should default to 100
+firstName should default to "Jane" 
+lastName should default to "Doe" 
+age should default to 100
 
 
 // Use the shorthand syntax to make the following code block take up one line.
 
-// const dogs = animals.filter( animal => animal.type === "dog");
-
+const dogs = animals.filter( animal => animal.type === "dog");
 
 // Template Literals
 
