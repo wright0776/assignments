@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(auto-fit, minmax(0, 49.5%));
+}
+
+.cardImg {
+    height: 30vw;
+    overflow: hidden;
+}
