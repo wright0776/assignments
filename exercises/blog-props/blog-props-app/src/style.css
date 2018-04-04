@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:300,400,800");
+
+.navbar {
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navTitle {
+    font-size: 1em;
+}
+
+.navTitle:hover {
+    cursor: pointer;
+}
+
+.mobileMenu {
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    padding: 7px 10px 7px 10px;
+    font-size: .6em;
+    font-weight: 800;
+    display: flex;
+}
+
+.mobileMenu:hover {
+    cursor: pointer;
+}
+
+.burg {
+    margin-top: -1px;
+    margin-left: 2px;
+    font-size: 1.1em;
+}
+
+.headerContainer {
+    margin-bottom: 35px;
+}
+
+.header {
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-clean-blog/img/home-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: black;
+    color: white;
+    /* margin-top: 45.5px; */
+    height: 311px;
+}
+
+.headerOverlay {
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2125297c;
+}
+
+.headerOverlay > h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+.headerOverlay > span {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.post {
+    border-bottom: 1px solid gainsboro;
+    padding: 25px 0 25px 0;
+}
+
+.postList {
+    padding: 0 12px 0 12px;
+}
+
+.postList a {
+    text-decoration: none;
+}
+
+.postTitle {
+    margin-bottom: 8px;
+}
+
+.postSubtitle {
+    font-weight: 300;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+}
+
+.post i {
+    font-family: 'Lora', serif;
+    color: gray;
+    font-size: .9em;
+}
+
+.post > a {
+    text-decoration: none;
+    transition: 200ms;
+    color: black;
+}
+
+.post > a:hover {
+    color: #0085a1;
+    transition: 200ms;
+}
+
+.postStamp a {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.postStamp a:hover {
+    text-decoration: underline;
+    color: #0085a1;
+}
+
+.olderPostsContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.olderPosts {
+    background-color: #0085a1;
+    padding: 14px;
+    margin: 14px;
+    width: 90%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+    transition: 200ms;
+}
+
+.olderPosts:hover {
+    background-color: #00657b;
+    transition: 200ms;
+}
+
+.footer {
+    border-top: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.copyright {
+    font-family: 'Lora', serif;
+    color: gray;
+    font-size: .7em;
+    margin: 18px;
+}
+
+.socialLinks {
+    display: flex;
+    list-style: none;
+}
+
+.social {
+    margin: 10px;
+    height: 38px;
+    width: 38px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.footer img {
+    height: 20px;
+    filter: invert(100%);
+}
+
+@media (min-width: 500px) {
+    .postList {
+        padding: 0 20% 0 20%;
+    }
+}
