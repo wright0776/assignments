@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 100;
+    margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,900");
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.main * {
+    margin: 20px 0 20px 0;
+}
+
+.main a {
+    margin: 8px;
+    text-decoration: none;
+    color: red;
+    font-weight: 400;
+    animation: pulse 20s infinite;
+}
+
+@keyframes pulse {
+    10% {
+        color: rgb(238, 130, 202);
+    }
+    20% {
+        color: rgb(225, 0, 255);
+    }
+    30% {
+        color: blue;
+    }
+    40% {
+        color: rgb(0, 191, 255);
+    }
+    50% {
+        color: green;
+    }
+    60% {
+        color: greenyellow;
+        text-shadow: none;
+    }
+    70% {
+        color: rgb(255, 255, 0);
+        text-shadow: 0 0 1px black;
+    }
+    80% {
+        color: orange;
+        text-shadow: none;
+    }
+    90% {
+        color: rgb(255, 123, 0);
+    }
+}
+
+.navButtons {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.navButtons li {
+    padding: 10px;
+}
+
+.navButtons a {
+    text-decoration: none;
+    color: black;
+}
