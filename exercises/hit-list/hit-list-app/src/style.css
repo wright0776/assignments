@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.main h1 {
+    padding: 20px 0 20px 0;
+    background-color: black;
+    color: wheat;
+    margin: 0 0 20px 0;
+}
+
+.list {
+    list-style: none;
+    /* text-align: center; */
+    padding: 10px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.person * {
+    margin: 0 20px 20px 20px;
+    position: relative;
+}
+
+.person img {
+    width: 300px;
+    box-shadow: 0 0 20px red;
+}
+
+.vegetables {
+    margin-top: -110px;
+}
+
+.vegetables::before {
+    position: relative;
+    content: 'DO NOT HARM THE VEGETABLES!';
+    color: white;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-style: italic;
+    top: 160px;
+    z-index: 5;
+    /* text-shadow: 0 0 20px rgb(255, 255, 255); */
+    background: rgba(0, 0, 0, 0.616);
+    padding: 5px;
+    line-height: 1.5;
+}
