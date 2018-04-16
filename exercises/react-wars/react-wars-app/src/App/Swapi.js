@@ -20,7 +20,6 @@ class Swapi extends React.Component {
                 people: response.data.results,
                 loading: false
             })
-            // console.log(this.state.people)
         })
     }
     render() {
@@ -31,7 +30,6 @@ class Swapi extends React.Component {
                 </h2>
             )
         });
-        // console.log(people)
         return (
             <div className='swapi'>
                 <div className='people'>
