@@ -6,7 +6,7 @@ import Main from './Main';
 
 function App(props) {
     return (
-        <div>
+        <div className='app'>
             <Switch>
                 <Route exact path='/' component={Enter} />
                 <Route path='/main' component={Main} />
