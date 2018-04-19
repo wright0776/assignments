@@ -1,26 +1,3 @@
-# Name Badge Exercise
-This exercise was to make a name badge generator using React.JS
-
-There are two main parts to it: 
-
-1. A form to enter info for a new name badge and 
-2. A section where new badges populate. 
-
-When filling out the form, if any field has less than three characters, the form will not submit and an error message will pop up above the form letting you know you must fill in all fields
-
-If the phone number field is not 10 numbers with no spaces and no special characters, a message will pop up above the form letting you know your phone number must be 10 numbers. 
-
-When all fields are filled according to the two parameters outlined above, and the submit button is pressed, a new badge will populate below the form with the info entered. 
-
-In each badge populated, there is a hamburger menu in the top right corner. This is a dropdown menu that has just one item, which is delete. Pressing it will delete the badge it is in. 
-
-This app uses: 
-
-React.JS
-Redux
-React-Redux
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
