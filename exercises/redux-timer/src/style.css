@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots|Roboto+Mono');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+h1 {
+    margin: 0 20px 50px 20px;
+}
+h2 {
+    display: flex;
+    width: 126px;
+    overflow: hidden;
+}
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.timerBorder {
+    margin-top: 100px;
+    border: 10px solid red;
+    background: red;
+    border-radius: 20px;
+}
+.timer {
+    border: 10px solid white;
+    border-radius: 10px;
+    background: white;
+    padding: 50px 50px 30px 50px;
+}
+.title {
+    font-family: 'Raleway Dots', cursive;
+    margin: 0 10px 30px 0;
+    text-align: center;
+}
+.time {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 0 30px 5px;
+    padding: 5p;
+    border: 1px solid gray;
+    padding: 0 5px 0 5px;
+}
+.space {
+    position: absolute;
+    background: white;
+    height: 100%;
+    width: 4px;
+    right: 0;
+}
+button {
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 0 0 10px gainsboro;
+}
+button:hover {
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+}
+.start {
+    background: rgb(237, 255, 237);
+}
+.stop {
+    background: rgb(255, 223, 223);
+}
+.reset {
+    background: rgb(221, 238, 255);
+}
