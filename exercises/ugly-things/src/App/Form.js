@@ -30,14 +30,14 @@ class Form extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         const {imgUrl,caption} = this.state.inputs;
-        if(imgUrl.length < 1 && caption.length < 1){
-            return this.setState(prevState => {
-                return {
-                    ...prevState,
-                    completed: false
-                }
-            })
-        }
+        // if(imgUrl.length < 1 && caption.length < 1){
+        //     return this.setState(prevState => {
+        //         return {
+        //             ...prevState,
+        //             completed: false
+        //         }
+        //     })
+        // }
         this.props.addThing(this.state.inputs);
         this.setState(this.initialState);
     }

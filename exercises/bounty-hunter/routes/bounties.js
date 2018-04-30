@@ -41,7 +41,7 @@ bountyRouter.route('/:id')
     .put((req,res) => {
         const {id} = req.params;
         let editedBounty = req.body;
-        bounties = bounties.map(bounty => bounty._id === id ? editedBounty = {...bounties, ...editedBounty} : bounty);
+        bounties = bounties.map(bounty => bounty._id === id ? editedBounty = {...bounty, ...editedBounty} : bounty);
         res.status(200).send(editedBounty);
     })
 

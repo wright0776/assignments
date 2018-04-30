@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Header from './Header';
+import Body from './Body';
 
 function App() {
     return (
         <div>
-            bounties test
+            <Header />
+            <Body />
         </div>
     )
 }
