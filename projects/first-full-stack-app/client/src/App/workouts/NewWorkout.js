@@ -82,8 +82,9 @@ class NewWorkout extends Component {
             return (
                 <div className='newWorkout'>
                     <h2 className='pageTitle'>Create New Workout</h2>
-                    <div className='back'>
+                    <div className='backInner'>
                         <Link to='/'>Main Menu</Link>
+                        <Link to='/workouts'>Workouts</Link>
                     </div>
                     <div className='formContainer'>
                         <form onSubmit={this.handleSubmit} className='workoutForm'>

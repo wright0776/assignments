@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MoveInNewWorkout(props) {
+function ExistingMovesToAdd(props) {
     // const {name,}
     return (
         <div>
@@ -9,4 +9,4 @@ function MoveInNewWorkout(props) {
     )
 }
 
-export default MoveInNewWorkout
+export default ExistingMovesToAdd

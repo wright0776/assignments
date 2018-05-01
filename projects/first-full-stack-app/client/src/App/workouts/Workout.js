@@ -34,7 +34,7 @@ class Workout extends Component {
         } else {
             const { name, moves, target, type } = currentWorkout
             const workoutMoves = moves.map((move, i) =>
-                <WorkoutMove key={move._id}{...move} />)
+                <WorkoutMove key={move._id + i}{...move} />)
             return (
                 <div className='workout'>
                     <h2 className='pageTitle'>{name}</h2>

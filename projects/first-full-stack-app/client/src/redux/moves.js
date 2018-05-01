@@ -35,12 +35,14 @@ const movesReducer = (state = initialState, action) => {
             }
         case 'DELETE_MOVE':
             return {
+                ...state,
                 data: state.data.filter(id => action.id !== id),
                 loading: false
             }
         case 'EDIT_MOVE':
             return {
-                data: state.data.map(move => action.id === move.id ? move = action.newMove : move)
+                ...state,
+                data: state.data.map(move => action.id === move.id ? action.move : move)
             }
         default:
             return state;
@@ -127,7 +129,7 @@ export const editMove = (id, newMove) => {
         axios.put("/moves/" + id, newMove)
             .then(response => {
                 dispatch({
-                    type: 'POST_MOVE',
+                    type: 'EDIT_MOVE',
                     move: response.data
                 })
             })

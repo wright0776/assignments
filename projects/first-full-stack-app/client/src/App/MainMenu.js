@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function MainMenu () {
     return (
         <div className='mainMenu'>
-            <h2 className='pageTitle'>WORKOUT CREATOR</h2>
+            <h2 className='pageTitle alpha'>WORKOUT CREATOR</h2>
             <div className='mainTitle'>Main Menu</div>
             <div className='menuContainer'>
                 <Link to='/workouts'>My Workouts</Link>

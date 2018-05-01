@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { getWorkouts } from '../../redux/workouts';
+import { getWorkouts, deleteWorkout, editWorkout } from '../../redux/workouts';
 import WorkoutMenu from './WorkoutMenu';
 
 class WorkoutsList extends Component {
@@ -19,11 +19,10 @@ class WorkoutsList extends Component {
     }
 
     openClick = (e) => {
-        console.log(e.target.name)
-        e.persist();
+        e ? e.persist() : null;
         this.setState(prevState => ({
             open: !prevState.open,
-            opened: e.target.name
+            opened: e ? e.target.name : ""
         }));
     }
 
@@ -46,7 +45,12 @@ class WorkoutsList extends Component {
                     {this.state.open && this.state.opened === item._id ?
                         <div className='popMenu'>
                             <div className='popMenuContent'>
-                                <WorkoutMenu openClick={this.openClick}/>
+                                <WorkoutMenu 
+                                    workout={{...item}} 
+                                    close={this.openClick} 
+                                    deleteWorkout={deleteWorkout}
+                                    editWorkout={editWorkout}
+                                />
                             </div>
                         </div> : null}
                 </div>)
@@ -59,6 +63,7 @@ class WorkoutsList extends Component {
                     </div>
                     <div className='list'>
                         {comps}
+                        <Link className='bottomButton' to='/new-workout'>Create New Workout</Link>
                     </div>
                 </div>
             )

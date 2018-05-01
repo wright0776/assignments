@@ -36,12 +36,13 @@ const workoutsReducer = (state = initialState, action) => {
         case 'DELETE_WORKOUT':
             return {
                 ...state,
-                data: state.data.filter(id => action.id !== id),
+                data: state.data.filter(workout => action.id !== workout._id),
                 loading: false
             }
         case 'EDIT_WORKOUT':
             return {
-                data: state.data.map(workout => action.id === workout.id ? workout = action.newWorkout : workout)
+                ...state,
+                data: state.data.map(workout => action.id === workout.id ? action.workout : workout)
             }
         default:
             return state;
@@ -111,7 +112,7 @@ export const deleteWorkout = (id) => {
             .then(response => {
                 dispatch({
                     type: 'DELETE_WORKOUT',
-                    workout: response.data
+                    id
                 })
             })
             .catch(err => {
@@ -128,7 +129,7 @@ export const editWorkout = (id, newWorkout) => {
         axios.put("/workouts/" + id, newWorkout)
             .then(response => {
                 dispatch({
-                    type: 'POST_WORKOUT',
+                    type: 'EDIT_WORKOUT',
                     workout: response.data
                 })
             })

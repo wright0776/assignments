@@ -7,7 +7,9 @@ workoutRouter.route('/')
     .get((req, res) => {
         WorkoutModel.find(req.query, (err, foundWorkouts) => {
             if(err) return res.send(err);
-            res.status(200).send(foundWorkouts);
+            WorkoutModel.populate(foundWorkouts, {path: 'moves'}, (err, popWorkouts) => {
+                res.status(200).send(foundWorkouts);
+            })
         })
     })
     .post((req, res) => {

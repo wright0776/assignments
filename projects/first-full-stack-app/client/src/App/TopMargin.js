@@ -11,7 +11,6 @@ class TopMargin extends Component {
     render () {
         // const {open} = this.state
         return (
-            <div className='topMargin'>
                 <div className='buttonMenu'>
                     <div className='buttonContainer'>
                         <div className='button'></div>
@@ -19,8 +18,6 @@ class TopMargin extends Component {
                         <div className='button'></div>
                     </div>
                 </div>
-                {}
-            </div>
         )
     }
 }

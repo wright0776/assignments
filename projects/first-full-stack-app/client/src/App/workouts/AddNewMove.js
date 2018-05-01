@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { postMove } from '../../redux/moves';
 
-class NewMove extends Component {
+class AddNewMove extends Component {
     constructor(props) {
         super(props);
         this.initialState = {
@@ -63,4 +63,4 @@ class NewMove extends Component {
     }
 }
 
-export default connect(null, { postMove })(NewMove)
+export default connect(null, { postMove })(AddNewMove)

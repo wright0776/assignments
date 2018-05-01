@@ -38,7 +38,7 @@ class MovesList extends Component {
                                 <Link to={`/moves/${item._id}`} key={item._id}>
                                     {item.name}
                                 </Link>
-                                <div>...</div>
+                                <button>...</button>
                             </div>
                         )}
                     </div>
